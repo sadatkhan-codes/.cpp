@@ -13,7 +13,7 @@ int main() {
 
     bool isPrime = true;
 
-    for (int i = 2; i*i <= n; i++) {
+    for (int i = 2; i*i <= n; i++) {    // we are checking only till square root of n
         if (n % i == 0) {
             isPrime = false;
             break;
